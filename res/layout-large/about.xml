@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#0C0C0C">
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#0C0C0C"
+            android:orientation="vertical"
+            android:id="@+id/linearLayoutAbout"
+            android:layout_margin="7dp">
+
+        <ImageView
+                android:id="@+id/imageLogo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="false"
+                android:contentDescription="@string/raponair"
+                android:scaleType="fitXY"
+                android:src="@drawable/logo_raponair"
+                />
+
+    </LinearLayout>
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/scrollView"
+            android:layout_gravity="center"
+            android:background="@drawable/degradado"
+            android:layout_margin="7dp">
+
+    <LinearLayout
+            android:id="@+id/linearLayoutCentro"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center_horizontal">
+
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Emisora Rap On-Line 24/7"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold"
+                android:textColor="#EA0010"
+                android:gravity="center"/>
+
+
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="WEB"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold"
+                android:textColor="#EA0010"
+                android:gravity="center"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="www.raponair.com"
+                android:autoLink="web"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold"
+                android:textColor="#EA0010"
+                android:gravity="center"
+                android:clickable="true"
+                android:textColorLink="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textColorHighlight="#ffffff"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="FACEBOOK"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold"
+                android:textColor="#EA0010"
+                android:gravity="center"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="https://www.facebook.com/pages/raponaircom/253681601363800"
+                android:autoLink="web"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold"
+                android:textColor="#EA0010"
+                android:gravity="center"
+                android:clickable="true"
+                android:textColorLink="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textColorHighlight="#ffffff"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="TWITTER"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold"
+                android:textColor="#EA0010"
+                android:gravity="center"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="https://twitter.com/raponair"
+                android:autoLink="web"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:textStyle="bold"
+                android:textColor="#EA0010"
+                android:gravity="center"
+                android:clickable="true"
+                android:textColorLink="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textColorHighlight="#ffffff"
+                android:layout_marginBottom="40dp"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

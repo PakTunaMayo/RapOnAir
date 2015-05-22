@@ -1,0 +1,14 @@
+<html><head>
+<style type="text/css">
+body {background-color: #0C0C0C; }
+a {text-decoration: none; color: #EA0010; }
+span {color: #EA0010; font-family: verdana; font-weight: bold;}
+
+</style>
+</head><body>
+
+<center><span id="cc_stream_info_summary">CARGANDO TAG</span></center>
+<script language="javascript" type="text/javascript" src="http://srv0510.emisorasonline.com/system/streaminfo.js"></script>
+<script language="javascript\" type="text/javascript" src="http://srv0510.emisorasonline.com/js.php/liferadi/streaminfo/rnd0"></script>
+
+</body></html>

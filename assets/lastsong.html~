@@ -1,0 +1,16 @@
+<html><head>
+<style type="text/css">
+body {background-color: #0C0C0C; }
+a {text-decoration: none; color: #EA0010; }
+span {color: #EA0010; font-family: verdana; font-weight: bold;}
+
+</style>
+</head><body>
+<center>
+<link rel="stylesheet" type="text/css" href="http://srv0510.emisorasonline.com/theme/widget_recenttracks.css" />
+<div id="cc_recent_tracks">Cargando ...</div>
+<script language="javascript" type="text/javascript" src="http://srv0510.emisorasonline.com/system/recenttracks.js"></script>
+<script language="javascript" type="text/javascript" src="http://srv0510.emisorasonline.com/js.php/liferadi/recenttracks/rnd0"></script>
+</center>
+
+</body></html>

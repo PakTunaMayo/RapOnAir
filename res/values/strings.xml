@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RapOnAir</string>
+    <string name="menu_about">About Rap On Air</string>
+    <string name="menu_salir">Quit</string>
+    <string name="cargando">LOADING</string>
+    <string name="horario">TIMES</string>
+    <string name="escuchando">Listening Rap On Air</string>
+    <string name="play_pause">Play/Pause</string>
+    <string name="raponair">Rap On Air</string>
+    <string name="ultimascanciones">SONGS</string>
+    <string name="aqueesperas">WHAT ARE YOU WAITING FOR TUNE?!!</string>
+    <string name="teesperamos">FIND ALL NEWS ON RAPONAIR.COM</string>
+    <string name="errorconexion">Connection Failed: Check your internet connection or try again later</string>
+
+</resources>
