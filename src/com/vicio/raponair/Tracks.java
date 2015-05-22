@@ -1,5 +1,7 @@
 package com.vicio.raponair;
 
+import android.util.Log;
+
 import java.util.ArrayList;
 
 /**
@@ -7,18 +9,23 @@ import java.util.ArrayList;
  */
 public class Tracks {
 
+    final String TAG = "MainActivity"; //para los logs
     private ArrayList<Track> list;
 
     public Tracks(String xml) {
         this.list = new ArrayList();
 
         while (xml != "") {
-            int empieza = xml.indexOf("<track>");
-            int fin = xml.indexOf("</track>", empieza);
-            String trackXml = xml.substring(empieza, fin + 8);
-            Track track = new Track(trackXml);
-            list.add(track);
-            xml.replace(trackXml, "");
+            int start = xml.indexOf("<track>");
+            if (start != -1) {
+                int end = xml.indexOf("</track>", start);
+                String trackXml = xml.substring(start, end + 8);
+                Track track = new Track(trackXml);
+                list.add(track);
+                xml = xml.replace(trackXml, "");
+            } else {
+                xml = "";
+            }
         }
 
     }

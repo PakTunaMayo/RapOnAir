@@ -18,10 +18,19 @@ public class Track {
         this.playduratuion = playduratuion;
     }
     public Track(String xml){
-            int empieza = xml.indexOf("<title>");
-            int fin = xml.indexOf("</title>", empieza);
-            setTitle(xml.substring(empieza+7, fin));
-
+        try {
+            int start = xml.indexOf("<title>");
+            int end = xml.indexOf("</title>", start);
+            setTitle(xml.substring(start+7, end));
+            start = xml.indexOf("<artists>");
+            end = xml.indexOf("</artists>", start);
+            setArtits(xml.substring(start + 9, end));
+            start = xml.indexOf("<cover>");
+            end = xml.indexOf("</cover>", start);
+            setCover(xml.substring(start + 7, end));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
     }
 

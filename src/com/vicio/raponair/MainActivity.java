@@ -66,10 +66,10 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
 
     MediaPlayer mp ;
 	Boolean sonando;
-    WebView browser, browserLasts, browserCargarSongs;//, browserCargoLasts;
+    WebView browserCurrentSong, browserLasts, browserCargarSongs;//, browserCargoLasts;
     TextView txtInfo;
     Timer timer;
-    String myHTML;
+    String myHtml;
 
     //Variables para el formateo de LastsSongs
     /*Bitmap bitmap;
@@ -197,13 +197,6 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
                     });
                     www.loadUrl("http://raponair.com");
 
-                    //String username = "Paco";
-                    //String password = "raponair4444";
-                    //String xmlRpcUrl = "http://raponair.com/xmlrpc.php";
-
-
-                    //Wordpress wp = new Wordpress(username, password, xmlRpcUrl);
-                    //List<Page> recentPosts = wp.getRecentPosts(10);
 
                     t3 = true;
                 }else if(s=="mitab4" & !t4){
@@ -257,7 +250,7 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
 
 		main = new Messenger(new Handler(this));
         txtInfo=(TextView) findViewById(R.id.txtInfo);
-        browser=(WebView) findViewById(R.id.webViewNombre);
+        browserCurrentSong=(WebView) findViewById(R.id.webViewNombre);
         browserLasts=(WebView) findViewById(R.id.webViewLasts);
         browserCargarSongs =(WebView) findViewById(R.id.webViewCargarSongs);
 
@@ -273,10 +266,10 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
 			    }
 			});
 
-            browser.getSettings().setJavaScriptEnabled(true);
-            browser.setBackgroundColor(0);
-            browser.getSettings().setLoadWithOverviewMode(true);
-            browser.getSettings().setUseWideViewPort(true);
+            browserCurrentSong.getSettings().setJavaScriptEnabled(true);
+            browserCurrentSong.setBackgroundColor(0);
+            //browserCurrentSong.getSettings().setLoadWithOverviewMode(true);
+            //browserCurrentSong.getSettings().setUseWideViewPort(true);
 
 
             browserLasts.getSettings().setJavaScriptEnabled(true);
@@ -297,7 +290,7 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
             if (servicioCorriendo()){
                 setSonando(true);
                 getBoton().setBackgroundResource(R.drawable.playerpause);
-                cargarCurrentSong();
+                //cargarCurrentSong();
             }else{
                 setSonando(false);
                 getBoton().setBackgroundResource(R.drawable.playerplay);
@@ -322,7 +315,7 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
                 //browser.reload();
                 //browserLasts.reload();
                 Log.i(TAG,"Timer - Entro");
-                cargarLatsSongsSoloDeUnoEnUno = true;
+                cargarCurrentSong();
                 cargarLatsSongs();
             }
         },1,30000);//
@@ -346,7 +339,7 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
 		 stopService(new Intent(this,ServicioRapOnAir.class));
 		 getBoton().setBackgroundResource(R.drawable.playerplay);
 		 setSonando(false);
-         browser.setVisibility(View.GONE);
+         browserCurrentSong.setVisibility(View.GONE);
          getBoton().setEnabled(true);
 
      }
@@ -378,122 +371,95 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
 		}
 
 	public void setTxtInfo(String mensaje) {
-        browser.setVisibility(View.GONE);
+        browserCurrentSong.setVisibility(View.GONE);
         txtInfo.setVisibility(View.VISIBLE);
         txtInfo.setText(mensaje);
 		}
-    //carga lo que pasee en cargarLatsSongs() en el webbrowser de current_song
+
     private void cargarCurrentSong(){
         Log.i(TAG,"cargarCurrentSong - Entro");
-        txtInfo.setVisibility(View.GONE);
-        browser.setVisibility(View.VISIBLE);
-        browser.loadUrl("file:///android_asset/titulo.html");
+        myHtml = getHTML("http://api.radionomy.com/currentsong.cfm?radiouid=a3babc1f-617b-488b-9fba-9757cfb66e38&apikey=c3ff5cc2-41f8-41ca-bddf-8aad372a586c&callmeback=yes&type=xml&cover=yes");
+        browserCurrentSong.post(new Runnable() {
+            @Override
+            public void run() {
+                Tracks tracks = new Tracks(myHtml);
+                browserCurrentSong.loadData(showTracksInHtml(tracks), "text/html", "UTF-8");
+            }
+        });
 
     }
     private void cargarLatsSongs(){
 
-        Log.i(TAG,"cargarLatsSongs - Llamo a la url radionomy.com");
-       /* browserLasts.post(new Runnable() {
+        Log.i(TAG,"cargarLatsSongs - Last songs of radionomy.com");
+        myHtml = getHTML("http://api.radionomy.com/tracklist.cfm?radiouid=a3babc1f-617b-488b-9fba-9757cfb66e38&apikey=c3ff5cc2-41f8-41ca-bddf-8aad372a586c&amount=5&type=xml&cover=yes");
+        browserCargarSongs.post(new Runnable() {
             @Override
             public void run() {
-                browserLasts.loadUrl("http://api.radionomy.com/tracklist.cfm?radiouid=a3babc1f-617b-488b-9fba-9757cfb66e38&apikey=c3ff5cc2-41f8-41ca-bddf-8aad372a586c&amount=5&type=xml&cover=yes");
-            }
-        });*/
-        try {
-            HttpClient client = new DefaultHttpClient();
-            HttpGet request = new HttpGet("http://api.radionomy.com/tracklist.cfm?radiouid=a3babc1f-617b-488b-9fba-9757cfb66e38&apikey=c3ff5cc2-41f8-41ca-bddf-8aad372a586c&amount=5&type=xml&cover=yes");
-            HttpResponse response = client.execute(request);
 
-            String html = "";
-            InputStream in = response.getEntity().getContent();
-            BufferedReader reader = new BufferedReader(new InputStreamReader(in));
-            StringBuilder str = new StringBuilder();
-            String line = null;
-            while((line = reader.readLine()) != null)
-            {
-                str.append(line);
+                Tracks tracks = new Tracks(myHtml);
+                browserCargarSongs.loadData(showTracksInHtml(tracks), "text/html", "UTF-8");
             }
-            in.close();
-            html = str.toString();
-            Log.i(TAG, html);
-            Tracks tracks = new Tracks(html);
-            //TODO
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        });
 
     }
 
-/*    class MyJavaScriptInterface
-    {
-        @JavascriptInterface
-        @SuppressWarnings("unused")
-        public void processHTML(String html)
-        {
-            if (cargarLatsSongsSoloDeUnoEnUno) { //con esto solo hago que entre solo cuando lo llame el Timer
-                cargarLatsSongsSoloDeUnoEnUno = false;
-                // aqui ya tengo el condigo HTML y quito y me quedo lo que quiera
-                if (html.contains("<track>")) {
-
-                        Log.i(TAG, "processHTML - Entro");
-                        int empieza = html.indexOf("<tracks>");
-                        int fin = html.indexOf("</tracks>", empieza);
-                        Tracks tracks = new Tracks(html.substring(empieza+8, fin));
-
-
-                        myHTML = "<html><head><title>ouyeahmate</title>" +
-                                "<style type=\"text/css\">" +
-                                "body {background-color: #0C0C0C; }" +
-                                "p {color: #A8A8A8; font-family: verdana;}" +
-                                "strong {color: #686868; font-family: verdana;}" +
-                                "</style></head><body><table>";
-                                for (Track track : tracks.getList()){
-                                    myHTML += "<tr><td>";
-                                    myHTML += track.getArtits();
-                                    myHTML += "<td></tr>";
-                                }
-
-
-                        myHTML += "</table></body></html>";
-
-
-                        //para hacer que las caratulas se vean
-                        empieza = myHTML.indexOf("//i.radionomy");
-                        while (empieza != -1) {
-                            myHTML = myHTML.substring(0, empieza) + "http:" + myHTML.substring(empieza);
-                            empieza = myHTML.indexOf("//i.radionomy", empieza + 14);
-                        }
-
-                        // formatear un poco la table
-                        empieza = myHTML.indexOf("<td class=\"itunes_id\">");
-                        fin = myHTML.indexOf("</td>", empieza + 21);
-                        String borra = myHTML.substring(empieza, fin + 5);
-                        myHTML = myHTML.replaceAll(borra, "");
-                        empieza = myHTML.indexOf("<td class=\"now_playing\">");
-                        fin = myHTML.indexOf("</td>", empieza + 21);
-                        borra = myHTML.substring(empieza, fin + 5);
-                        myHTML = myHTML.replaceAll(borra, "");
-
-                        myHTML = myHTML.replaceAll("38x38", "75x75");
-                        myHTML = myHTML.replaceAll("</strong> - ", "</strong></br>");
-
-                        myHTML = myHTML.replaceFirst("<tr>", "<tr style=\"background-color: #F4F0F0\">");
-                        myHTML = myHTML.replaceFirst("<p class=\"current_song\">", "<p style=\"color: #000000\">");
-                        myHTML = myHTML.replaceFirst("<strong>", "<strong style=\"color: #000000\">");
-
-                        browserCargarSongs.post(new Runnable() {
-                            @Override
-                            public void run() {
-                                browserCargarSongs.loadData(myHTML, "text/html", "UTF-8");
-                            }
-                        });
-
-
-                }
+    private String showTracksInHtml(Tracks tracks){
+        String myHTML = "<html><head><title>ouyeahmate</title>" +
+                "<style type=\"text/css\">" +
+                "body {background-color: #0C0C0C; }" +
+                "table {color: #A8A8A8; font-family: verdana; width: 100%;}" +
+                "strong {color: #686868; font-family: verdana;}" +
+                "</style></head><body><table>";
+        for(int i=0;i< tracks.getList().size();i++){
+            if (i == 0) {
+                myHTML += "<tr style=\"background-color: #1E1E1E;\">";
+            } else {
+                myHTML += "<tr>";
             }
+            myHTML += "<td width=\"72px\"><img src=\"";
+            myHTML += tracks.getList().get(i).getCover();
+            myHTML += "\" height=\"72px\" width=\"72px\"/></td>";
+            if (i==0) {
+                myHTML += "<td style=\"color: #FFFFFF;\"><strong style=\"color: #CCCCCC;\">";
+            } else {
+                myHTML += "<td><strong>";
+            }
+            myHTML += tracks.getList().get(i).getArtits();
+            myHTML += "</strong><br/>";
+            myHTML += tracks.getList().get(i).getTitle();
+            myHTML += "</td>";
+            myHTML += "</tr>";
         }
-    }*/
+
+        myHTML += "</table></body></html>";
+        Log.i(TAG, myHTML);
+        return myHTML;
+    }
+
+private String getHTML(String url){
+    StringBuilder str = null;
+    String html = "";
+    try {
+        HttpClient client = new DefaultHttpClient();
+        HttpGet request = new HttpGet(url);
+        HttpResponse response = client.execute(request);
+
+
+        InputStream in = response.getEntity().getContent();
+        BufferedReader reader = new BufferedReader(new InputStreamReader(in));
+        str = new StringBuilder();
+        String line = null;
+        while((line = reader.readLine()) != null)
+        {
+            str.append(line);
+        }
+        in.close();
+        html = str.toString();
+    } catch (IOException e) {
+        html = "ERROR";
+    }
+    return html;
+}
 
     private Boolean estaSonando(){
 		 if (sonando != null)
@@ -568,7 +534,8 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
 			
 			getBoton().setBackgroundResource(R.drawable.playerpause);
 			getBoton().setEnabled(true);
-            cargarCurrentSong();
+            txtInfo.setVisibility(View.GONE);
+            browserCurrentSong.setVisibility(View.VISIBLE);
             lanzarTimer();
             break;
 		case MSG_ERROR:
