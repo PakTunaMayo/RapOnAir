@@ -268,8 +268,8 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
 
             browserCurrentSong.getSettings().setJavaScriptEnabled(true);
             browserCurrentSong.setBackgroundColor(0);
-            //browserCurrentSong.getSettings().setLoadWithOverviewMode(true);
-            //browserCurrentSong.getSettings().setUseWideViewPort(true);
+            browserCurrentSong.getSettings().setLoadWithOverviewMode(true);
+            browserCurrentSong.getSettings().setUseWideViewPort(true);
 
 
             browserLasts.getSettings().setJavaScriptEnabled(true);
@@ -290,7 +290,8 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
             if (servicioCorriendo()){
                 setSonando(true);
                 getBoton().setBackgroundResource(R.drawable.playerpause);
-                //cargarCurrentSong();
+                cargarCurrentSong();
+                lanzarTimer();
             }else{
                 setSonando(false);
                 getBoton().setBackgroundResource(R.drawable.playerplay);
@@ -315,7 +316,7 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
                 //browser.reload();
                 //browserLasts.reload();
                 Log.i(TAG,"Timer - Entro");
-                cargarCurrentSong();
+               // cargarCurrentSong();
                 cargarLatsSongs();
             }
         },1,30000);//
@@ -378,14 +379,17 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
 
     private void cargarCurrentSong(){
         Log.i(TAG,"cargarCurrentSong - Entro");
-        myHtml = getHTML("http://api.radionomy.com/currentsong.cfm?radiouid=a3babc1f-617b-488b-9fba-9757cfb66e38&apikey=c3ff5cc2-41f8-41ca-bddf-8aad372a586c&callmeback=yes&type=xml&cover=yes");
-        browserCurrentSong.post(new Runnable() {
-            @Override
-            public void run() {
-                Tracks tracks = new Tracks(myHtml);
-                browserCurrentSong.loadData(showTracksInHtml(tracks), "text/html", "UTF-8");
-            }
-        });
+//        myHtml = getHTML("http://api.radionomy.com/currentsong.cfm?radiouid=a3babc1f-617b-488b-9fba-9757cfb66e38&apikey=c3ff5cc2-41f8-41ca-bddf-8aad372a586c&callmeback=yes&type=xml&cover=yes");
+//        browserCurrentSong.post(new Runnable() {
+//            @Override
+//            public void run() {
+//                Tracks tracks = new Tracks(myHtml);
+//                browserCurrentSong.loadData(showTracksInHtml(tracks), "text/html", "UTF-8");
+//            }
+//        });
+        txtInfo.setVisibility(View.GONE);
+        browserCurrentSong.setVisibility(View.VISIBLE);
+        browserCurrentSong.loadUrl("file:///android_asset/titulo.html");
 
     }
     private void cargarLatsSongs(){
@@ -534,8 +538,7 @@ private String getHTML(String url){
 			
 			getBoton().setBackgroundResource(R.drawable.playerpause);
 			getBoton().setEnabled(true);
-            txtInfo.setVisibility(View.GONE);
-            browserCurrentSong.setVisibility(View.VISIBLE);
+            cargarCurrentSong();
             lanzarTimer();
             break;
 		case MSG_ERROR:
