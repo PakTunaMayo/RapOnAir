@@ -98,17 +98,23 @@ public class ServicioRapOnAir extends Service implements Callback{
 
 			reproductor.start();
 			res = true;
-			  
-			 Notification notificacion = new Notification(
-			         R.drawable.on32,
-			         getString(R.string.escuchando),
-			         System.currentTimeMillis() );
-			 PendingIntent intencionPendiente = PendingIntent.getActivity(
-			          this, 0, new Intent(this, MainActivity.class), 0);
-
-			notificacion.setLatestEventInfo(this, "Rap On Air","Escuchando emisión", intencionPendiente);
-			
-			nm.notify(ID_NOTIFICACION_CREAR, notificacion);
+            //TODO actualizar
+//			 Notification notificacion = new Notification(
+//			         R.drawable.on32,
+//			         getString(R.string.escuchando),
+//			         System.currentTimeMillis() );
+//			 PendingIntent intencionPendiente = PendingIntent.getActivity(
+//			          this, 0, new Intent(this, MainActivity.class), 0);
+//
+//
+//			notificacion.setLatestEventInfo(this, "Rap On Air","Escuchando emisión", intencionPendiente);
+//
+            Notification noti = new Notification.Builder(this)
+                    .setContentTitle("Rap On Air")
+                    .setContentText("Escuchando emisión")
+                    .setSmallIcon(R.drawable.on32)
+                    .build();
+			nm.notify(ID_NOTIFICACION_CREAR, noti);
           } catch (Exception e) {
   			Message m = new Message();
   			m.what = MSG_ERROR;
@@ -116,6 +122,7 @@ public class ServicioRapOnAir extends Service implements Callback{
   			try {
   				main.send(m);
   			} catch (RemoteException ex) {
+                ex.printStackTrace();
   			}
   			
   		}
@@ -124,7 +131,6 @@ public class ServicioRapOnAir extends Service implements Callback{
 
 	@Override
 	public boolean handleMessage(Message msg) {
-		// TODO Auto-generated method stub
 		
 		switch (msg.what) {
 			case MSG_CONECTAR:
@@ -138,7 +144,7 @@ public class ServicioRapOnAir extends Service implements Callback{
                             try {
                                 main.send(m);
                             } catch (RemoteException e) {
-                                // TODO Auto-generated catch block
+                                e.printStackTrace();
                             }
                         }else{
                             onDestroy();

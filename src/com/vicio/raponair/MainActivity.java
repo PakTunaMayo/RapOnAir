@@ -4,16 +4,11 @@ package com.vicio.raponair;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.ActivityManager.RunningServiceInfo;
-import android.app.AlertDialog;
-import android.app.ProgressDialog;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.media.MediaPlayer;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Handler.Callback;
@@ -21,7 +16,6 @@ import android.os.IBinder;
 import android.os.Message;
 import android.os.Messenger;
 import android.os.RemoteException;
-import android.text.Html;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -29,7 +23,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
-import android.webkit.JavascriptInterface;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -37,26 +30,17 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TabHost;
 import android.widget.TextView;
-import android.widget.Toast;
-//import org.apache.http.client.*;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.ResponseHandler;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.util.EntityUtils;
 
-import java.io.BufferedReader;
+
+import com.squareup.okhttp.OkHttpClient;
+import com.squareup.okhttp.Request;
+import com.squareup.okhttp.Response;
+
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
+
+//import org.apache.http.client.*;
 
 
 
@@ -106,7 +90,7 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
         spec.setContent(R.id.tab1);
         View tabIndicator1 = LayoutInflater.from(this).inflate(R.layout.tab_indicator, (ViewGroup) findViewById(android.R.id.tabs), false);
         ((TextView) tabIndicator1.findViewById(R.id.title)).setText("RADIO");
-        ((ImageView) tabIndicator1.findViewById(R.id.icon)).setImageResource(R.drawable.wave);
+//        ((ImageView) tabIndicator1.findViewById(R.id.icon)).setImageResource(R.drawable.wave);
         spec.setIndicator(tabIndicator1);
         //spec.setIndicator("",getResources().getDrawable(R.drawable.wave));
         tabs.addTab(spec);
@@ -114,7 +98,7 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
         spec.setContent(R.id.tab2);
         View tabIndicator2 = LayoutInflater.from(this).inflate(R.layout.tab_indicator, (ViewGroup) findViewById(android.R.id.tabs), false);
         ((TextView) tabIndicator2.findViewById(R.id.title)).setText(getString(R.string.horario));
-        ((ImageView) tabIndicator2.findViewById(R.id.icon)).setImageResource(R.drawable.watch);
+//        ((ImageView) tabIndicator2.findViewById(R.id.icon)).setImageResource(R.drawable.watch);
         spec.setIndicator(tabIndicator2);
         //spec.setIndicator("",getResources().getDrawable(R.drawable.watch));
         tabs.addTab(spec);
@@ -122,7 +106,7 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
         spec.setContent(R.id.tab3);
         View tabIndicator3 = LayoutInflater.from(this).inflate(R.layout.tab_indicator, (ViewGroup) findViewById(android.R.id.tabs), false);
         ((TextView) tabIndicator3.findViewById(R.id.title)).setText("WEB");
-        ((ImageView) tabIndicator3.findViewById(R.id.icon)).setImageResource(R.drawable.web);
+//        ((ImageView) tabIndicator3.findViewById(R.id.icon)).setImageResource(R.drawable.web);
         spec.setIndicator(tabIndicator3);
         //spec.setIndicator("",getResources().getDrawable(R.drawable.web));
         tabs.addTab(spec);
@@ -130,7 +114,7 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
         spec.setContent(R.id.tab4);
         View tabIndicator4 = LayoutInflater.from(this).inflate(R.layout.tab_indicator, (ViewGroup) findViewById(android.R.id.tabs), false);
         ((TextView) tabIndicator4.findViewById(R.id.title)).setText("FB");
-        ((ImageView) tabIndicator4.findViewById(R.id.icon)).setImageResource(R.drawable.facebook);
+//        ((ImageView) tabIndicator4.findViewById(R.id.icon)).setImageResource(R.drawable.facebook);
         spec.setIndicator(tabIndicator4);
         //spec.setIndicator("",getResources().getDrawable(R.drawable.facebook));
         tabs.addTab(spec);
@@ -138,7 +122,7 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
         spec.setContent(R.id.tab5);
         View tabIndicator5 = LayoutInflater.from(this).inflate(R.layout.tab_indicator, (ViewGroup) findViewById(android.R.id.tabs), false);
         ((TextView) tabIndicator5.findViewById(R.id.title)).setText("TWITTER");
-        ((ImageView) tabIndicator5.findViewById(R.id.icon)).setImageResource(R.drawable.twitter);
+//        ((ImageView) tabIndicator5.findViewById(R.id.icon)).setImageResource(R.drawable.twitter);
         spec.setIndicator(tabIndicator5);
         //spec.setIndicator("",getResources().getDrawable(R.drawable.twitter));
         tabs.addTab(spec);
@@ -394,8 +378,12 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
     }
     private void cargarLatsSongs(){
 
-        Log.i(TAG,"cargarLatsSongs - Last songs of radionomy.com");
-        myHtml = getHTML("http://api.radionomy.com/tracklist.cfm?radiouid=a3babc1f-617b-488b-9fba-9757cfb66e38&apikey=c3ff5cc2-41f8-41ca-bddf-8aad372a586c&amount=5&type=xml&cover=yes");
+        Log.i(TAG, "cargarLatsSongs - Last songs of radionomy.com");
+        try {
+            myHtml = getHTML("http://api.radionomy.com/tracklist.cfm?radiouid=a3babc1f-617b-488b-9fba-9757cfb66e38&apikey=c3ff5cc2-41f8-41ca-bddf-8aad372a586c&amount=5&type=xml&cover=yes");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         browserCargarSongs.post(new Runnable() {
             @Override
             public void run() {
@@ -440,30 +428,40 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
         return myHTML;
     }
 
-private String getHTML(String url){
-    StringBuilder str = null;
-    String html = "";
-    try {
-        HttpClient client = new DefaultHttpClient();
-        HttpGet request = new HttpGet(url);
-        HttpResponse response = client.execute(request);
+//private String getHTML(String url){
+//    StringBuilder str = null;
+//    String html = "";
+//    try {
+//        HttpClient client = new DefaultHttpClient();
+//        HttpGet request = new HttpGet(url);
+//        HttpResponse response = client.execute(request);
+//
+//
+//        InputStream in = response.getEntity().getContent();
+//        BufferedReader reader = new BufferedReader(new InputStreamReader(in));
+//        str = new StringBuilder();
+//        String line = null;
+//        while((line = reader.readLine()) != null)
+//        {
+//            str.append(line);
+//        }
+//        in.close();
+//        html = str.toString();
+//    } catch (IOException e) {
+//        html = "ERROR";
+//    }
+//    return html;
+//}
+    private String getHTML(String url) throws IOException {
+        OkHttpClient client = new OkHttpClient();
 
+        Request request = new Request.Builder()
+                .url(url)
+                .build();
 
-        InputStream in = response.getEntity().getContent();
-        BufferedReader reader = new BufferedReader(new InputStreamReader(in));
-        str = new StringBuilder();
-        String line = null;
-        while((line = reader.readLine()) != null)
-        {
-            str.append(line);
-        }
-        in.close();
-        html = str.toString();
-    } catch (IOException e) {
-        html = "ERROR";
+        Response response = client.newCall(request).execute();
+        return response.body().string();
     }
-    return html;
-}
 
     private Boolean estaSonando(){
 		 if (sonando != null)

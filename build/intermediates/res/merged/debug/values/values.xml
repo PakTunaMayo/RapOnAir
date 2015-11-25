@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/pak/StudioProjects/RapOnAir/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/home/pak/StudioProjects/RapOnAir/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">RapOnAir</string>
+    <string name="aqueesperas">WHAT ARE YOU WAITING FOR TUNE?!!</string>
+    <string name="cargando">LOADING</string>
+    <string name="errorconexion">Connection Failed: Check your internet connection or try again later</string>
+    <string name="escuchando">Listening Rap On Air</string>
+    <string name="horario">TIMES</string>
+    <string name="menu_about">About Rap On Air</string>
+    <string name="menu_salir">Quit</string>
+    <string name="play_pause">Play/Pause</string>
+    <string name="raponair">Rap On Air</string>
+    <string name="teesperamos">FIND ALL NEWS ON RAPONAIR.COM</string>
+    <string name="ultimascanciones">ON AIR</string>
+    <!-- From: file:/home/pak/StudioProjects/RapOnAir/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

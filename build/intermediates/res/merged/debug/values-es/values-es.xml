@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/pak/StudioProjects/RapOnAir/res/values-es/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">RapOnAir</string>
+    <string name="aqueesperas">¡A QUÉ ESPERAS PARA SINTONIZAR!</string>
+    <string name="cargando">CARGANDO</string>
+    <string name="errorconexion">Error de conexión: Comprueba tu conexión a internet o intentalo un poco más tarde</string>
+    <string name="escuchando">Escuchando Rap On Air</string>
+    <string name="horario">HORARIO</string>
+    <string name="menu_about">Sobre Rap On Air</string>
+    <string name="menu_salir">Salir</string>
+    <string name="play_pause">Play/Pause</string>
+    <string name="raponair">Rap On Air</string>
+    <string name="teesperamos">ENTERATE DE TODAS LAS NOVEDADES EN RAPONAIR.COM</string>
+    <string name="ultimascanciones">EN EL AIRE</string>
+</resources>
