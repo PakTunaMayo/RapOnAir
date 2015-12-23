@@ -50,7 +50,9 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
 
     MediaPlayer mp ;
 	Boolean sonando;
-    WebView browserCurrentSong, browserLasts, browserCargarSongs;//, browserCargoLasts;
+    //WebView browserCurrentSong, browserLasts, ;//, browserCargoLasts;
+    WebView browserCargarSongs;
+//    WebView  browserLasts;
     TextView txtInfo;
     Timer timer;
     String myHtml;
@@ -233,10 +235,10 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
         Log.i(TAG,"onCreate - Creadas todas las tabs");
 
 		main = new Messenger(new Handler(this));
-        txtInfo=(TextView) findViewById(R.id.txtInfo);
-        browserCurrentSong=(WebView) findViewById(R.id.webViewNombre);
-        browserLasts=(WebView) findViewById(R.id.webViewLasts);
-        browserCargarSongs =(WebView) findViewById(R.id.webViewCargarSongs);
+//        txtInfo=(TextView) findViewById(R.id.txtInfo);
+//        browserCurrentSong=(WebView) findViewById(R.id.webViewNombre);
+//          browserLasts=(WebView) findViewById(R.id.webViewLasts);
+        browserCargarSongs =(WebView) findViewById(R.id.webViewLasts);
 
 		try {
 
@@ -250,14 +252,14 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
 			    }
 			});
 
-            browserCurrentSong.getSettings().setJavaScriptEnabled(true);
-            browserCurrentSong.setBackgroundColor(0);
-            browserCurrentSong.getSettings().setLoadWithOverviewMode(true);
-            browserCurrentSong.getSettings().setUseWideViewPort(true);
+//            browserCurrentSong.getSettings().setJavaScriptEnabled(true);
+//            browserCurrentSong.setBackgroundColor(0);
+//            browserCurrentSong.getSettings().setLoadWithOverviewMode(true);
+//            browserCurrentSong.getSettings().setUseWideViewPort(true);
 
 
-            browserLasts.getSettings().setJavaScriptEnabled(true);
-            browserLasts.setBackgroundColor(0);
+//            browserLasts.getSettings().setJavaScriptEnabled(true);
+//            browserLasts.setBackgroundColor(0);
 /*            browserLasts.addJavascriptInterface(new MyJavaScriptInterface(), "HTMLOUT");
             //WebViewClient must be set BEFORE calling loadUrl!
             browserLasts.setWebViewClient(new WebViewClient() {
@@ -274,19 +276,19 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
             if (servicioCorriendo()){
                 setSonando(true);
                 getBoton().setBackgroundResource(R.drawable.playerpause);
-                cargarCurrentSong();
+//                cargarCurrentSong();
                 lanzarTimer();
             }else{
                 setSonando(false);
                 getBoton().setBackgroundResource(R.drawable.playerplay);
-                setTxtInfo(getString(R.string.aqueesperas));
+//                setTxtInfo(getString(R.string.aqueesperas));
                 playOstop();
             }
 
 
 
 		} catch (IllegalStateException e) {
-			setTxtInfo("Error:" + e.getMessage());
+//			setTxtInfo("Error:" + e.getMessage());
 		}
 	}
 
@@ -309,40 +311,42 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
 	public void playOstop()  {
 		 
 		 if(estaSonando()){
-             setTxtInfo(getString(R.string.teesperamos));
+//             setTxtInfo(getString(R.string.teesperamos));
              //browser.loadUrl("http://www.raponair.com/banners/BANNER%20RAP%20ON%20AIR.gif");
 			 pararServicio();
 			 
 		 }else{
-             setTxtInfo(getString(R.string.cargando));
+//             setTxtInfo(getString(R.string.cargando));
              arrancarServicio();
 
 		 }
-		 
+
 	 }
 	private void pararServicio(){
-		 stopService(new Intent(this,ServicioRapOnAir.class));
+		 stopService(new Intent(this, ServicioRapOnAir.class));
 		 getBoton().setBackgroundResource(R.drawable.playerplay);
 		 setSonando(false);
-         browserCurrentSong.setVisibility(View.GONE);
+//         browserCurrentSong.setVisibility(View.GONE);
          getBoton().setEnabled(true);
 
      }
 	private void arrancarServicio(){
 		 try {
-
-			 startService(new Intent(this,ServicioRapOnAir.class));
+             Log.i(TAG,"arrancarServicio - Dentro");
+             startService(new Intent(this,ServicioRapOnAir.class));
 			 setSonando(true);
 			 if (bindService(new Intent(this, ServicioRapOnAir.class), this, 0)){
+                 Log.i(TAG,"arrancarServicio - Dentro del if del bind");
                  getBoton().setBackgroundResource(R.drawable.playerload);
 				 getBoton().setEnabled(false);
 			 }else{
-					setTxtInfo("Error!");
+//					setTxtInfo("Error!");
+                 Log.i(TAG,"arrancarServicio - Error!!");
 			 }
 
 
 		} catch (Exception e) {
-			setTxtInfo("ERROR");
+//			setTxtInfo("ERROR");
 		}
 	 }
 	private boolean servicioCorriendo() {
@@ -355,27 +359,27 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
 		    return false;
 		}
 
-	public void setTxtInfo(String mensaje) {
-        browserCurrentSong.setVisibility(View.GONE);
-        txtInfo.setVisibility(View.VISIBLE);
-        txtInfo.setText(mensaje);
-		}
+//	public void setTxtInfo(String mensaje) {
+////        browserCurrentSong.setVisibility(View.GONE);
+//        txtInfo.setVisibility(View.VISIBLE);
+//        txtInfo.setText(mensaje);
+//		}
 
-    private void cargarCurrentSong(){
-        Log.i(TAG,"cargarCurrentSong - Entro");
-//        myHtml = getHTML("http://api.radionomy.com/currentsong.cfm?radiouid=a3babc1f-617b-488b-9fba-9757cfb66e38&apikey=c3ff5cc2-41f8-41ca-bddf-8aad372a586c&callmeback=yes&type=xml&cover=yes");
-//        browserCurrentSong.post(new Runnable() {
-//            @Override
-//            public void run() {
-//                Tracks tracks = new Tracks(myHtml);
-//                browserCurrentSong.loadData(showTracksInHtml(tracks), "text/html", "UTF-8");
-//            }
-//        });
-        txtInfo.setVisibility(View.GONE);
-        browserCurrentSong.setVisibility(View.VISIBLE);
-        browserCurrentSong.loadUrl("file:///android_asset/titulo.html");
-
-    }
+//    private void cargarCurrentSong(){
+//        Log.i(TAG,"cargarCurrentSong - Entro");
+////        myHtml = getHTML("http://api.radionomy.com/currentsong.cfm?radiouid=a3babc1f-617b-488b-9fba-9757cfb66e38&apikey=c3ff5cc2-41f8-41ca-bddf-8aad372a586c&callmeback=yes&type=xml&cover=yes");
+////        browserCurrentSong.post(new Runnable() {
+////            @Override
+////            public void run() {
+////                Tracks tracks = new Tracks(myHtml);
+////                browserCurrentSong.loadData(showTracksInHtml(tracks), "text/html", "UTF-8");
+////            }
+////        });
+//        txtInfo.setVisibility(View.GONE);
+////        browserCurrentSong.setVisibility(View.VISIBLE);
+////        browserCurrentSong.loadUrl("file:///android_asset/titulo.html");
+//
+//    }
     private void cargarLatsSongs(){
 
         Log.i(TAG, "cargarLatsSongs - Last songs of radionomy.com");
@@ -514,7 +518,7 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
 		try {
 			servicio.send(msg);
 		} catch (RemoteException e) {
-			setTxtInfo("Error de servicio.");
+//			setTxtInfo("Error de servicio.");
 		}
 		
 		
@@ -535,16 +539,16 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
 		case MSG_PONERPAUSE:
 			
 			getBoton().setBackgroundResource(R.drawable.playerpause);
-			getBoton().setEnabled(true);
-            cargarCurrentSong();
+            getBoton().setEnabled(true);
+//            cargarCurrentSong();
             lanzarTimer();
             break;
 		case MSG_ERROR:
-			setTxtInfo(getString(R.string.errorconexion));
+//			setTxtInfo(getString(R.string.errorconexion));
 			pararServicio();
 			break;
 		case MSG_SMS:
-			setTxtInfo(msg.obj.toString());
+//			setTxtInfo(msg.obj.toString());
 			break;
 		default:
 			break;
