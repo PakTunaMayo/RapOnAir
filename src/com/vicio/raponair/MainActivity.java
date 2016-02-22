@@ -1,6 +1,7 @@
 package com.vicio.raponair;
 
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.ActivityManager.RunningServiceInfo;
@@ -8,6 +9,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
+import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
@@ -17,6 +19,7 @@ import android.os.Message;
 import android.os.Messenger;
 import android.os.RemoteException;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -28,6 +31,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TabHost;
 import android.widget.TextView;
 
@@ -92,6 +96,9 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
         spec.setContent(R.id.tab1);
         View tabIndicator1 = LayoutInflater.from(this).inflate(R.layout.tab_indicator, (ViewGroup) findViewById(android.R.id.tabs), false);
         ((TextView) tabIndicator1.findViewById(R.id.title)).setText("RADIO");
+        ((TextView) tabIndicator1.findViewById(R.id.title)).setTextColor(Color.WHITE);
+        ((TextView) tabIndicator1.findViewById(R.id.title)).setHeight(100);
+        ((TextView) tabIndicator1.findViewById(R.id.title)).setGravity(Gravity.CENTER_VERTICAL | Gravity.CENTER_HORIZONTAL);
 //        ((ImageView) tabIndicator1.findViewById(R.id.icon)).setImageResource(R.drawable.wave);
         spec.setIndicator(tabIndicator1);
         //spec.setIndicator("",getResources().getDrawable(R.drawable.wave));
@@ -100,6 +107,9 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
         spec.setContent(R.id.tab2);
         View tabIndicator2 = LayoutInflater.from(this).inflate(R.layout.tab_indicator, (ViewGroup) findViewById(android.R.id.tabs), false);
         ((TextView) tabIndicator2.findViewById(R.id.title)).setText(getString(R.string.horario));
+        ((TextView) tabIndicator2.findViewById(R.id.title)).setTextColor(Color.WHITE);
+        ((TextView) tabIndicator2.findViewById(R.id.title)).setHeight(100);
+        ((TextView) tabIndicator2.findViewById(R.id.title)).setGravity(Gravity.CENTER_VERTICAL | Gravity.CENTER_HORIZONTAL);
 //        ((ImageView) tabIndicator2.findViewById(R.id.icon)).setImageResource(R.drawable.watch);
         spec.setIndicator(tabIndicator2);
         //spec.setIndicator("",getResources().getDrawable(R.drawable.watch));
@@ -108,6 +118,9 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
         spec.setContent(R.id.tab3);
         View tabIndicator3 = LayoutInflater.from(this).inflate(R.layout.tab_indicator, (ViewGroup) findViewById(android.R.id.tabs), false);
         ((TextView) tabIndicator3.findViewById(R.id.title)).setText("WEB");
+        ((TextView) tabIndicator3.findViewById(R.id.title)).setTextColor(Color.WHITE);
+        ((TextView) tabIndicator3.findViewById(R.id.title)).setHeight(100);
+        ((TextView) tabIndicator3.findViewById(R.id.title)).setGravity(Gravity.CENTER_VERTICAL | Gravity.CENTER_HORIZONTAL);
 //        ((ImageView) tabIndicator3.findViewById(R.id.icon)).setImageResource(R.drawable.web);
         spec.setIndicator(tabIndicator3);
         //spec.setIndicator("",getResources().getDrawable(R.drawable.web));
@@ -116,6 +129,9 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
         spec.setContent(R.id.tab4);
         View tabIndicator4 = LayoutInflater.from(this).inflate(R.layout.tab_indicator, (ViewGroup) findViewById(android.R.id.tabs), false);
         ((TextView) tabIndicator4.findViewById(R.id.title)).setText("FB");
+        ((TextView) tabIndicator4.findViewById(R.id.title)).setTextColor(Color.WHITE);
+        ((TextView) tabIndicator4.findViewById(R.id.title)).setHeight(100);
+        ((TextView) tabIndicator4.findViewById(R.id.title)).setGravity(Gravity.CENTER_VERTICAL | Gravity.CENTER_HORIZONTAL);
 //        ((ImageView) tabIndicator4.findViewById(R.id.icon)).setImageResource(R.drawable.facebook);
         spec.setIndicator(tabIndicator4);
         //spec.setIndicator("",getResources().getDrawable(R.drawable.facebook));
@@ -124,6 +140,9 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
         spec.setContent(R.id.tab5);
         View tabIndicator5 = LayoutInflater.from(this).inflate(R.layout.tab_indicator, (ViewGroup) findViewById(android.R.id.tabs), false);
         ((TextView) tabIndicator5.findViewById(R.id.title)).setText("TWITTER");
+        ((TextView) tabIndicator5.findViewById(R.id.title)).setTextColor(Color.WHITE);
+        ((TextView) tabIndicator5.findViewById(R.id.title)).setHeight(100);
+        ((TextView) tabIndicator5.findViewById(R.id.title)).setGravity(Gravity.CENTER_VERTICAL | Gravity.CENTER_HORIZONTAL);
 //        ((ImageView) tabIndicator5.findViewById(R.id.icon)).setImageResource(R.drawable.twitter);
         spec.setIndicator(tabIndicator5);
         //spec.setIndicator("",getResources().getDrawable(R.drawable.twitter));
@@ -269,7 +288,7 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
                 }
             });*/
 
-            browserCargarSongs.setBackgroundColor(0);
+            browserCargarSongs.setBackgroundColor(Color.WHITE);
             browserCargarSongs.loadUrl("file:///android_asset/loading.html");
 
 
@@ -402,7 +421,7 @@ public class MainActivity extends Activity implements ServiceConnection,Callback
     private String showTracksInHtml(Tracks tracks){
         String myHTML = "<html><head><title>ouyeahmate</title>" +
                 "<style type=\"text/css\">" +
-                "body {background-color: #0C0C0C; }" +
+                "body {background-color: #FFFFFF; }" +
                 "table {color: #A8A8A8; font-family: verdana; width: 100%;}" +
                 "strong {color: #686868; font-family: verdana;}" +
                 "</style></head><body><table>";

@@ -43,202 +43,65 @@
     </layouts>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="MainActivity" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="INFO" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.vicio.raponair" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d6a64e0-e544-4043-b55e-1a143069110e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/AboutActivity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/AppRater$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/AppRater$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/AppRater$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/AppRater.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/BuildConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1$7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1$8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/R$dimen.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/R$layout.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/R$menu.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/R$style.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/outputs/apk/RapOnAir-debug-unaligned.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/outputs/apk/RapOnAir-debug.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/ServicioRapOnAir$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/ServicioRapOnAir.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/Track.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/Tracks.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/dex/debug/classes.dex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/incremental/aidl/androidTest/debug/dependency.store" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/incremental/aidl/debug/dependency.store" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-ldpi-v4/facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi-v4/facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi-v4/facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/fondo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/assets/debug/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/assets/debug/loadingPRimero.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/logo_raponair.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/assets/debug/music_bars - copia.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/assets/debug/music_bars.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/okhttp-2.6.0-865c8f9979a2d2bf22f546535a2639e9158b66b0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/okio-1.6.0-1414b43980efe7a8b87a7a9e63781ddd615b041a.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/on256.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/on32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/on512.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/playerload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-ldpi-v4/playerload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi-v4/playerload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi-v4/playerload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/playerload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/playerpause.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-ldpi-v4/playerpause.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi-v4/playerpause.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi-v4/playerpause.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/playerpause.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/playerplay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-ldpi-v4/playerplay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi-v4/playerplay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi-v4/playerplay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/playerplay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/raponair.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug-androidTest.ap_" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-ldpi-v4/twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi-v4/twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi-v4/twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/watch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-ldpi-v4/watch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi-v4/watch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi-v4/watch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/watch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/wave.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-ldpi-v4/wave.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi-v4/wave.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi-v4/wave.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/wave.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/web.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-ldpi-v4/web.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi-v4/web.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi-v4/web.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/web.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/source/buildConfig/androidTest/debug/com/vicio/raponair/test/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/source/buildConfig/debug/com/vicio/raponair/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com/vicio/raponair/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/about.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-large-v4/about.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-xlarge-v4/about.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_main.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-large-v4/activity_main.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-xlarge-v4/activity_main.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/degradado.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gradlew" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/assets/debug/lastsong.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/assets/debug/loading.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/main.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeResourcesandroidTest/debug/merger.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeResourcesdebug/merger.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/okhttp_2_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/okio_1_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/tab_indicator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-large-v4/tab_indicator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/tab_selected.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/tab_unselected.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/tabselector.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/assets/debug/titulo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-es/values-es.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-sw720dp-land-v13/values-sw720dp-land-v13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-v11/values-v11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-v14/values-v14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values/values.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_support_v4_69f106dba0f8351b1dd645fde6e19343.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/jwordpress_0_5_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/xmlrpc_client_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$MyJavaScriptInterface$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$MyJavaScriptInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/logo_raponair2.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/AboutActivity.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/AboutActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/AppRater$1.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/AppRater$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/AppRater$2.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/AppRater$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/AppRater$3.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/AppRater$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/AppRater.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/AppRater.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/BuildConfig.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$1$1.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$1$2.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$1$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$1$3.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$1$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$1$4.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$1$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$1$5.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$1$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$1$6.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$1$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$1$7.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$1$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$1$8.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$1$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$1.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$2.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$3.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$4.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/R$attr.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/R$dimen.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/R$drawable.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/R$id.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/R$layout.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/R$menu.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/R$string.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/R$style.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/R.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/RapOnAir.apk" afterPath="$PROJECT_DIR$/out/production/RapOnAir/RapOnAir.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/ServicioRapOnAir$1.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/ServicioRapOnAir$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/ServicioRapOnAir.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/ServicioRapOnAir.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/Track.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/Track.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/Tracks.class" afterPath="$PROJECT_DIR$/out/production/RapOnAir/com/vicio/raponair/Tracks.class" />
+    <list default="true" id="4d6a64e0-e544-4043-b55e-1a143069110e" name="Default" comment="Quitado WebBrowsers y más Log&#10;&#10;Quitado el tema de tantos webBrowser&#10;Añadida más lineas de Log">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1$5.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1$6.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1$7.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1$8.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/R$id.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/R$layout.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/R$menu.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/R$string.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/R$style.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/R.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/RapOnAir-debug-unaligned.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/RapOnAir-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/RapOnAir-debug.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/RapOnAir-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/ServicioRapOnAir$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/ServicioRapOnAir$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/ServicioRapOnAir.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/vicio/raponair/ServicioRapOnAir.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/dex/debug/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/logo_raponair.png" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/logo_raponair.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/logo_raponair.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/logo_raponair.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/vicio/raponair/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/vicio/raponair/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RapOnAir.iml" afterPath="$PROJECT_DIR$/RapOnAir.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/com/vicio/raponair/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com/vicio/raponair/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/vicio/raponair/ServicioRapOnAir.java" afterPath="$PROJECT_DIR$/src/com/vicio/raponair/ServicioRapOnAir.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-large-v4/activity_main.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-large-v4/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-xlarge-v4/activity_main.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout-xlarge-v4/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/res/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-large/activity_main.xml" afterPath="$PROJECT_DIR$/res/layout-large/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-xlarge/activity_main.xml" afterPath="$PROJECT_DIR$/res/layout-xlarge/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/degradado.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/degradado.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/degradado.xml" afterPath="$PROJECT_DIR$/res/drawable-hdpi/degradado.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/tab_selected.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/tab_selected.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/tab_selected.xml" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tab_selected.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/tab_unselected.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/tab_unselected.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/tab_unselected.xml" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tab_unselected.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/tabselector.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi-v4/tabselector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/tabselector.xml" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tabselector.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RapOnAir.iws" />
@@ -297,8 +160,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExternalProjectsManager">
@@ -328,35 +191,100 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/vicio/raponair/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74385965">
-              <caret line="74" column="47" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.6272401">
+              <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#7109#7337#0" expanded="true" />
+                <element signature="e#7336#7337#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="loading.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/loading.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.75">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServicioRapOnAir.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vicio/raponair/ServicioRapOnAir.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+              <caret line="86" column="12" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tracks.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/vicio/raponair/Tracks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout-large/activity_main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
               <folding />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tabselector.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/tabselector.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tab_unselected.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/tab_unselected.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tab_selected.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/tab_selected.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout-xlarge/activity_main.xml">
           <provider editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -368,11 +296,16 @@
     </FindUsagesManager>
   </component>
   <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="D:\Dropbox\Android\my-release-key.keystore" />
+    <option name="KEY_STORE_PATH" value="$USER_HOME$/fvallepinar@gmail.com/Android/my-release-key.keystore" />
     <option name="KEY_ALIAS" value="alias_name" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -936,7 +869,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="1448454644334" />
+        <entry key="$PROJECT_DIR$" value="1456139244337" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1169,11 +1102,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/com/vicio/raponair/ServicioRapOnAir.java" />
         <option value="$PROJECT_DIR$/res/layout-xlarge/activity_main.xml" />
         <option value="$PROJECT_DIR$/res/drawable-hdpi/degradado.xml" />
+        <option value="$PROJECT_DIR$/res/drawable-hdpi/tab_selected.xml" />
+        <option value="$PROJECT_DIR$/res/drawable-hdpi/tab_unselected.xml" />
         <option value="$PROJECT_DIR$/res/layout-large/activity_main.xml" />
+        <option value="$PROJECT_DIR$/res/drawable-hdpi/tabselector.xml" />
+        <option value="$PROJECT_DIR$/src/com/vicio/raponair/ServicioRapOnAir.java" />
+        <option value="$PROJECT_DIR$/assets/loading.html" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/src/com/vicio/raponair/MainActivity.java" />
       </list>
     </option>
@@ -1204,43 +1142,16 @@
             <id />
           </State>
           <State>
-            <id>Abstraction issues</id>
-          </State>
-          <State>
             <id>Android Lint</id>
-          </State>
-          <State>
-            <id>Assignment issues</id>
           </State>
           <State>
             <id>Assignment issuesGroovy</id>
           </State>
           <State>
-            <id>Class structure</id>
-          </State>
-          <State>
-            <id>Cloning issues</id>
-          </State>
-          <State>
-            <id>Code style issues</id>
-          </State>
-          <State>
-            <id>Concurrency annotation issues</id>
-          </State>
-          <State>
             <id>Control FlowGroovy</id>
           </State>
           <State>
-            <id>Control flow issues</id>
-          </State>
-          <State>
-            <id>Data flow issues</id>
-          </State>
-          <State>
             <id>Data flow issuesGroovy</id>
-          </State>
-          <State>
-            <id>Declaration redundancy</id>
           </State>
           <State>
             <id>General</id>
@@ -1249,61 +1160,22 @@
             <id>Groovy</id>
           </State>
           <State>
-            <id>Inheritance issues</id>
-          </State>
-          <State>
-            <id>Initialization issues</id>
-          </State>
-          <State>
-            <id>IntelliJ IDEA Platform Inspections</id>
-          </State>
-          <State>
             <id>Internationalization issues</id>
-          </State>
-          <State>
-            <id>J2ME issues</id>
           </State>
           <State>
             <id>JUnit issues</id>
           </State>
           <State>
-            <id>Java language level issues</id>
-          </State>
-          <State>
-            <id>Java language level migration aids</id>
-          </State>
-          <State>
-            <id>JavaBeans issues</id>
-          </State>
-          <State>
             <id>Language Injection</id>
-          </State>
-          <State>
-            <id>Logging issues</id>
           </State>
           <State>
             <id>Naming ConventionsGroovy</id>
           </State>
           <State>
-            <id>Naming conventions</id>
-          </State>
-          <State>
-            <id>Numeric issues</id>
-          </State>
-          <State>
             <id>Pattern Validation</id>
           </State>
           <State>
-            <id>Performance issues</id>
-          </State>
-          <State>
-            <id>Portability issues</id>
-          </State>
-          <State>
             <id>Potentially confusing code constructsGroovy</id>
-          </State>
-          <State>
-            <id>Probable bugs</id>
           </State>
           <State>
             <id>Probable bugsGroovy</id>
@@ -1312,24 +1184,17 @@
             <id>Properties Files</id>
           </State>
           <State>
-            <id>Security issues</id>
-          </State>
-          <State>
-            <id>Serialization issues</id>
-          </State>
-          <State>
-            <id>Threading issues</id>
-          </State>
-          <State>
             <id>Threading issuesGroovy</id>
           </State>
           <State>
             <id>Validity issuesGroovy</id>
           </State>
-          <State>
-            <id>Visibility issues</id>
-          </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>AndroidLintUselessParent</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -1360,9 +1225,9 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1381,6 +1246,138 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RapOnAir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RapOnAir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raponair" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RapOnAir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RapOnAir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RapOnAir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RapOnAir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout-xlarge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RapOnAir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RapOnAir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout-large" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RapOnAir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RapOnAir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RapOnAir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RapOnAir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-hdpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RapOnAir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RapOnAir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RapOnAir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RapOnAir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -1396,7 +1393,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="ExportedApkPath" value="D:\Dropbox\Android\RapOnAir.apk" />
     <property name="ExportedModule" value="RapOnAir" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="last_opened_file_path" value="$USER_HOME$/fvallepinar@gmail.com/Android/my-release-key.keystore" />
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.WIDTH" value="176" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="raponair" />
@@ -1422,6 +1419,10 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="dynamic.classpath" value="false" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_23_x86" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="450" />
+    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$" />
+    <property name="ExportApk.Flavors" value="" />
+    <property name="ExportApk.BuildType" value="release" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1678,11 +1679,6 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SliceManager">
-    <option name="analysisUIOptions">
-      <AnalysisUIOptions />
-    </option>
-  </component>
   <component name="SvnConfiguration" myUseAcceleration="nothing">
     <configuration />
   </component>
@@ -1696,6 +1692,19 @@
       <workItem from="1370437140472" duration="875000" />
       <workItem from="1372686627241" duration="28000" />
     </task>
+    <task id="LOCAL-00001" summary="Actualizada la notificacion&#10;Arreglado obtener HTML con OkHTTP&#10;Nueva interfaz 50%">
+      <created>1448461823594</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1448461823594</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Reducción de WebBrowsers y más Log&#10;&#10;Muchos WebBrowsers eliminados&#10; Añadidas más lineas de Log para controlar lo que hace&#10; Puesto nuevo tema en todas las plantillas a falta de retoques">
+      <created>1450900704038</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1450900704038</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1712,69 +1721,71 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31887367" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26712328" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922733" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45081967" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32698768" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45051193" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287827" sideWeight="0.50213677" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922733" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287827" sideWeight="0.49786323" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922733" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32586786" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46136618" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" x="-168" y="222" width="1366" height="381" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32536975" sideWeight="0.49786323" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2298066" sideWeight="0.49786323" order="12" side_tool="false" content_ui="tabs" x="-168" y="222" width="1366" height="381" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281075" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17147435" sideWeight="0.6714976" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32586786" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32536975" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="250" y="505" width="1160" height="544" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="250" y="505" width="1160" height="544" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31887367" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="250" y="505" width="1160" height="544" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32786885" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32698768" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922733" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287827" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24130106" sideWeight="0.6714976" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17147435" sideWeight="0.6714976" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32536975" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26712328" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922733" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45081967" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45051193" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265306" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33333334" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" x="-168" y="222" width="1366" height="381" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32536975" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.46075085" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" x="-168" y="222" width="1366" height="381" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900763" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1790,25 +1801,58 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Actualizada la notificacion&#10;Arreglado obtener HTML con OkHTTP&#10;Nueva interfaz 50%" />
+    <MESSAGE value="Reducción de WebBrowsers y más Log&#10;&#10;Muchos WebBrowsers eliminados&#10; Añadidas más lineas de Log para controlar lo que hace&#10; Puesto nuevo tema en todas las plantillas a falta de retoques" />
+    <MESSAGE value="Quitado WebBrowsers y más Log&#10;&#10;Quitado el tema de tantos webBrowser&#10;Añadida más lineas de Log" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quitado WebBrowsers y más Log&#10;&#10;Quitado el tema de tantos webBrowser&#10;Añadida más lineas de Log" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="30" />
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/vicio/raponair/MainActivity.java</url>
+          <line>559</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/vicio/raponair/MainActivity.java</url>
+          <line>338</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/vicio/raponair/MainActivity.java</url>
+          <line>403</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/vicio/raponair/ServicioRapOnAir.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/vicio/raponair/MainActivity.java</url>
+          <line>405</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint suspend="ALL" type="CidrExceptionBreakpoint">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="41" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/vicio/raponair/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="370" column="0" selection-start-line="370" selection-start-column="0" selection-end-line="370" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1829,6 +1873,8 @@
           <caret line="293" column="37" selection-start-line="293" selection-start-column="37" selection-end-line="293" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#7109#7337#0" expanded="true" />
+            <element signature="e#7336#7337#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1867,6 +1913,8 @@
           <caret line="349" column="33" selection-start-line="349" selection-start-column="33" selection-end-line="349" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#7109#7337#0" expanded="true" />
+            <element signature="e#7336#7337#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1905,6 +1953,8 @@
           <caret line="363" column="49" selection-start-line="363" selection-start-column="49" selection-end-line="363" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#7109#7337#0" expanded="true" />
+            <element signature="e#7336#7337#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1936,6 +1986,8 @@
           <caret line="356" column="0" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#7109#7337#0" expanded="true" />
+            <element signature="e#7336#7337#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1969,29 +2021,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout-xlarge/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="187" column="53" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-large/tab_indicator.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37366548">
-          <caret line="14" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/tabselector.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5837563">
-          <caret line="23" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2002,27 +2037,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/tab_unselected.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="71" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/tab_indicator.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.51724136">
-          <caret line="8" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/tab_selected.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="71" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.51724136">
+          <caret line="8" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2076,24 +2097,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vicio/raponair/Tracks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14935988">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/loading.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04023845">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -2125,77 +2132,135 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46938777">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-xlarge/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/vicio/raponair/ServicioRapOnAir.java">
+    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-19/android/app/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76666665">
-          <caret line="115" column="29" selection-start-line="115" selection-start-column="29" selection-end-line="115" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.47579694">
+          <caret line="2196" column="21" selection-start-line="2196" selection-start-column="8" selection-end-line="2196" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-large/tab_indicator.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3955774">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/degradado.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.106852494">
+        <state vertical-scroll-proportion="0.08146399">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vicio/raponair/Tracks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-large/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="193" column="26" selection-start-line="193" selection-start-column="26" selection-end-line="193" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/tabselector.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/tab_unselected.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <caret line="6" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="8" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/tab_selected.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/loading.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.75">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.129032">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/vicio/raponair/ServicioRapOnAir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="86" column="12" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-xlarge/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6944444">
-          <caret line="211" column="26" selection-start-line="211" selection-start-column="26" selection-end-line="211" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-large/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46938777">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vicio/raponair/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74385965">
-          <caret line="74" column="47" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.6272401">
+          <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#7109#7337#0" expanded="true" />
+            <element signature="e#7336#7337#0" expanded="true" />
           </folding>
         </state>
       </provider>

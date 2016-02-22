@@ -2,18 +2,18 @@
 <items version="2" >
 
     <item
-        jar="/home/pak/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="/home/pak/StudioProjects/RapOnAir/build/intermediates/pre-dexed/debug/okio-1.6.0-1414b43980efe7a8b87a7a9e63781ddd615b041a.jar" />
-    </item>
-    <item
         jar="/home/pak/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.6.0/212387a39088ecd3daff8e3bfc3bdc4123e33c67/okhttp-2.6.0.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="212387a39088ecd3daff8e3bfc3bdc4123e33c67">
         <dex dex="/home/pak/StudioProjects/RapOnAir/build/intermediates/pre-dexed/debug/okhttp-2.6.0-865c8f9979a2d2bf22f546535a2639e9158b66b0.jar" />
+    </item>
+    <item
+        jar="/home/pak/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/home/pak/StudioProjects/RapOnAir/build/intermediates/pre-dexed/debug/okio-1.6.0-1414b43980efe7a8b87a7a9e63781ddd615b041a.jar" />
     </item>
 
 </items>

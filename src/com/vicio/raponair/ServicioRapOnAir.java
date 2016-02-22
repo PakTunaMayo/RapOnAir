@@ -14,6 +14,7 @@ import android.os.IBinder;
 import android.os.Message;
 import android.os.Messenger;
 import android.os.RemoteException;
+import android.util.Log;
 
 public class ServicioRapOnAir extends Service implements Callback{
 
@@ -25,6 +26,8 @@ public class ServicioRapOnAir extends Service implements Callback{
     private static final int MSG_PONERPAUSE = 2;
     private static final int MSG_ERROR = 3;
     private static final int MSG_SMS = 4;
+
+    final String TAG = "ServicioRapOnAir"; //para los logs
     
     Messenger main, servicio;
 
@@ -79,10 +82,15 @@ public class ServicioRapOnAir extends Service implements Callback{
 			//reproductor = MediaPlayer.create(this, Uri.parse("http://188.165.241.117:8008/stream"));
             //reproductor = MediaPlayer.create(this, Uri.parse("http://listen.radionomy.com/raponair.m3u"));
             //reproductor = MediaPlayer.create(this, Uri.parse("http://streaming.radionomy.com/Raponair"));
-            reproductor = MediaPlayer.create(this, Uri.parse("http://streaming.radionomy.com/RAP-ON-AIR-24h"));
+            //reproductor = MediaPlayer.create(this, Uri.parse("http://streaming.radionomy.com/RAP-ON-AIR-24h"));
 
-          } catch (Exception e) {
-			Message m = new Message();
+            Log.i(TAG, "conectar - Entro");
+            reproductor = MediaPlayer.create(this, Uri.parse("http://listen.radionomy.com/rap-on-air-radio"));
+
+            Log.i(TAG, "conectar - Añadido a reproductor");
+        } catch (Exception e) {
+            Log.i(TAG, "conectar - Error");
+            Message m = new Message();
 			m.what = MSG_ERROR;
 			m.obj = e.getMessage();
 			try {
@@ -109,6 +117,7 @@ public class ServicioRapOnAir extends Service implements Callback{
 //
 //			notificacion.setLatestEventInfo(this, "Rap On Air","Escuchando emisión", intencionPendiente);
 //
+            Log.i(TAG, "play - Pongo la notificación");
             Notification noti = new Notification.Builder(this)
                     .setContentTitle("Rap On Air")
                     .setContentText("Escuchando emisión")
